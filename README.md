@@ -3,7 +3,7 @@
 Integrates your [convict](https://github.com/mozilla/node-convict) configuration 
 with the [commander.js](https://github.com/tj/commander.js/) command-line tool.
  
-As you define your config with an schema, you have defined all the metadata needed 
+As you have defined your config with an schema, you already have all the metadata needed 
 by the command-line. DRY.
 
 Currently, very basic support is implemented, to solve simple use cases.
