@@ -13,6 +13,8 @@ var convict = require('convict');
 var program = require('commander');
 var convictCommander = require('convict-commander');
 
+convictCommander(program) // Enable convict-commander 
+
 // Define a schema
 var config = convict({
   port: {
@@ -24,7 +26,7 @@ var config = convict({
   }
 });
 
-convictCommander(program) // Enable convict-commander 
+program
   .version('0.0.1')
   .convict(config) // Add the metadata
   .parse(process.argv);
