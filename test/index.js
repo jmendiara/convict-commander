@@ -4,6 +4,8 @@ var convict = require('convict');
 var program = require('commander');
 var convictCommander = require('../lib/');
 
+convictCommander(program);
+
 // Define a schema
 var config = convict({
   port: {
@@ -15,7 +17,7 @@ var config = convict({
   }
 });
 
-convictCommander(program)
+program
     .version('0.0.1')
     .convict(config) // Add the metadata
     .parse(process.argv);
