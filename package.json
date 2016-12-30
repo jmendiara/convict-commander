@@ -1,6 +1,6 @@
 {
   "name": "convict-commander",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Integrate node-convict with commander.js",
   "main": "lib/index.js",
   "scripts": {
@@ -24,10 +24,10 @@
   "homepage": "https://github.com/jmendiara/convict-commander#readme",
   "devDependencies": {
     "commander": "^2.0.0",
-    "convict": "^1.4.0"
+    "convict": "^2.0.0"
   },
   "peerDependencies": {
     "commander": "^2.0.0",
-    "convict": "^1.4.0"
+    "convict": "^2.0.0"
   }
 }
